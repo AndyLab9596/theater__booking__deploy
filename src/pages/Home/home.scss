@@ -1,0 +1,82 @@
+.homepage__pagination {
+    .ant-pagination {
+        line-height: 42px;
+    }
+
+    .ant-pagination-item-active.ant-pagination-item {
+        width: 42px;
+        height: 42px;
+        text-align: center;
+        line-height: 42px;
+        background: linear-gradient(169deg, #5560ff 0%, #ff4343 100%);
+        border-radius: 50%;
+        font-size: 18px;
+        font-weight: 500;
+        outline: none;
+        border: none;
+        color: #ffffff;
+    }
+
+    .ant-pagination-item {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 500;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        width: 42px;
+        height: 42px;
+        text-align: center;
+        line-height: 42px;
+        border-radius: 50%;
+    }
+
+    @media (max-width: 640px) {
+        .ant-pagination-item-active.ant-pagination-item {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            background: linear-gradient(169deg, #5560ff 0%, #ff4343 100%);
+            border-radius: 50%;
+            font-size: 12px;
+            font-weight: 500;
+            outline: none;
+            border: none;
+            color: #ffffff;
+        }
+        .ant-pagination-item {
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 500;
+            outline: none;
+            border: none;
+            background-color: transparent;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 50%;
+        }
+    }
+
+    .ant-pagination-item a {
+        color: #5560ff;
+    }
+
+    .ant-pagination-item-active {
+        color: #ffffff;
+    }
+
+    .ant-pagination-item-active a {
+        color: #ffffff;
+    }
+    .ant-pagination-item-active:focus-visible a,
+    .ant-pagination-item-active:hover a {
+        color: #ffffff;
+    }
+}
+.ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-ellipsis,
+.ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis {
+    color: #5560ff;
+}

@@ -1,0 +1,78 @@
+.trapezoid {
+    border-bottom: 50px solid gray;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 80%;
+    opacity: 0.1;
+}
+
+.seatServed {
+    background-color: #ef4444;
+    cursor: no-drop;
+}
+
+.seatOnChoose {
+    background-color: #10b981 !important;
+    color: #fff;
+}
+
+.seatVip {
+    background-color: #f59e0b;
+}
+
+.seatChooseByMe {
+    background-color: #fff;
+}
+
+// --------------------------------------------
+.customTab {
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: #31d7a9 !important;
+    }
+    // .ant-tabs-tab-btn {
+    //     font-size: 16px;
+    // }
+    .ant-tabs-tab-active {
+        padding: 14px;
+        font-size: 18px;
+    }
+    .ant-tabs-ink-bar {
+        background: #31d7a9;
+        padding-top: 2px;
+    }
+    .ant-tabs-nav::before {
+        /* For the line to the right and close to the tabs */
+        // border-bottom: 2px solid #31d7a9 !important;
+        border-bottom: none !important;
+    }
+}
+
+// --------------------------------------------
+
+.steps-content {
+    min-height: 200px;
+    margin-top: 16px;
+    padding-top: 80px;
+    text-align: center;
+    background-color: #fafafa;
+    border: 1px dashed #e9e9e9;
+    border-radius: 2px;
+}
+
+.steps-action {
+    margin-top: 24px;
+}
+.ant-steps-item-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.ant-steps-item-wait .ant-steps-item-icon {
+    background: #5560ff;
+    > .ant-steps-icon {
+        color: #f59e0b;
+    }
+}
